@@ -65,16 +65,16 @@ class FAQAgent:
         for idx, item in enumerate(retrieved_docs, start=1):
 
             context += f"""
-FAQ {idx}
+                        FAQ {idx}
 
-Question:
-{item['faq']['question']}
+                        Question:
+                        {item['faq']['question']}
 
-Answer:
-{item['faq']['answer']}
+                        Answer:
+                        {item['faq']['answer']}
 
-------------------
-"""
+                        ------------------
+                        """
 
         return context
 
@@ -90,27 +90,27 @@ Answer:
                 {
                     "role": "system",
                     "content": """
-You are a helpful FAQ assistant.
+                                You are a helpful FAQ assistant.
 
-Answer ONLY using the provided context.
+                                Answer ONLY using the provided context.
 
-If the answer is not present in the context,
-reply exactly:
+                                If the answer is not present in the context,
+                                reply exactly:
 
-I don't have enough information to answer that.
-"""
+                                I don't have enough information to answer that.
+                                """
                 },
                 {
                     "role": "user",
                     "content": f"""
-Context:
+                                Context:
 
-{context}
+                                {context}
 
-Question:
+                                Question:
 
-{question}
-"""
+                                {question}
+                                """
                 }
             ]
         )
