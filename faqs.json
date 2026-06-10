@@ -1,0 +1,30 @@
+[
+  {
+    "question": "What are your office hours?",
+    "answer": "We are open from 9AM to 5PM Monday to Friday."
+  },
+  {
+    "question": "How can I reset my password?",
+    "answer": "Use the forgot password link on the login page."
+  },
+  {
+    "question": "Where is your office located?",
+    "answer": "Our office is located in Oslo."
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "You can contact support by emailing support@company.com."
+  },
+  {
+    "question": "What is your vacation policy?",
+    "answer": "Employees receive 25 vacation days per year."
+  },
+  {
+    "question": "Can vacation days be carried forward?",
+    "answer": "Unused vacation days can be carried forward to the next year."
+  },
+  {
+    "question": "Do unused vacation days expire?",
+    "answer": "Unused vacation days expire after 2 years."
+  }
+]
